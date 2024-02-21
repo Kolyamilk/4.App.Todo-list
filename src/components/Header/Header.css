@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    background-color: rgb(231, 246, 223);
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.header-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.header-name {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}

@@ -1,0 +1,110 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 1.1em;
+}
+
+.content__main {
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__input-task {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.main__input-task input {
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid gainsboro;
+
+}
+
+input::placeholder {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(123, 123, 123, 0.506);
+}
+
+
+
+
+
+.main__input-tasks li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    height: 1rem;
+    align-items: center;
+}
+
+.btnChoice {
+
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+
+.noneBG {
+    display: none;
+}
+.activeBG {
+    position: absolute;
+    border: none;
+    background: url(/src/images/input-icon.png) no-repeat;
+    background-size: 35px;
+    background-position: center;
+    min-width: 50px;
+    height: 3.4rem;
+    margin-left: 550px;
+}
+.doneTask {
+    opacity: 0.5;
+    border: none;
+    background: url(/src/images/task-done.png) no-repeat;
+    background-size: 40px;
+    background-position: center;
+    min-width: 50px;
+    height: 3rem;
+}
+.deleteTask {
+    opacity: 0.5;
+    border: none;
+    background: url(/src/images/task-delete.png) no-repeat;
+    background-size: 40px;
+    background-position: center;
+    min-width: 50px;
+    height: 3rem;
+    margin-left: 10px;
+}
+
+.hoverBtn:hover {
+    opacity: 1;
+    transform: translateY(-3px);
+    transition: all 0.2s;
+}
+
+.gray {
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: gainsboro;
+}
+
+input:focus {
+
+    background-size: 30px;
+
+}
