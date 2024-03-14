@@ -29,8 +29,27 @@ export default function History() {
             <div className="main__input-tasks gray">
                 <li><p>
                     <strong>{complete}</strong>
-                    asdasd
+                    go to train
                 </p>
+                
+                    <div className="btnChoice">
+                        <button className='doneTask hoverBtn'></button>
+                    </div>
+                </li>
+                <li><p>
+                    <strong>{complete}</strong>
+                    buy the milk
+                </p>
+                
+                    <div className="btnChoice">
+                        <button className='doneTask hoverBtn'></button>
+                    </div>
+                </li>
+                <li><p>
+                    <strong>{complete}</strong>
+                   create new app
+                </p>
+                
                     <div className="btnChoice">
                         <button className='doneTask hoverBtn'></button>
                     </div>
